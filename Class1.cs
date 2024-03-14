@@ -46,7 +46,10 @@ namespace ConsoleApp5
         }
         public static void Task3()
         {
-
+            Console.WriteLine("Input: ");
+            string input = Console.ReadLine();
+            string[] words = input.Split(new char[] {  }, StringSplitOptions.RemoveEmptyEntries);
+            Console.WriteLine(words.Length);
         }
         public static void Task4()
         {
